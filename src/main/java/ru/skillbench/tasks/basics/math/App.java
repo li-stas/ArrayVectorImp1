@@ -10,7 +10,7 @@ public class App
     public static void main( String[] args )    {
         System.out.println( "Hello World!" );
         ArrayVectorImpl aVect = new ArrayVectorImpl();
-        double[] arr1 = {8, 8, 33,-0.5, 99};
+        double[] arr1 = {8, 8, 33, -0.5, 99};
         double[] arr2 = {1, 1, 4, 1, 6, 13};
         ArrayVectorImpl vector1 = new ArrayVectorImpl(arr2);
         ArrayVectorImpl vector2 = new ArrayVectorImpl(arr1);
